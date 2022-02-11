@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+  height: 50vh;
+}
+
+.col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col.col1 {
+  background-color: #170055;
+  color: white;
+}
+
+.col.col2 {
+  background-color: #3e00ff;
+  color: red;
+}
+
+.col.col3 {
+  background-color: #ae00fb;
+  color: orange;
+}
